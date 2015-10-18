@@ -9,7 +9,7 @@ Sample setup for uwsgi + pypy
 
 ### OSX
 
-uwsgi + pypy might not work because of this issue. I'm trying out Ubuntu 14.10.
+uwsgi + pypy might not work on OSX because of this issue. I'm trying out Ubuntu 14.10.
 
 - https://github.com/Homebrew/homebrew/issues/32642
 

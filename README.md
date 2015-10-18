@@ -9,9 +9,20 @@ Sample setup for uwsgi + pypy
 
 ### OSX
 
+uwsgi + pypy might not work because of this issue. I'm trying out Ubuntu 14.10.
+
+- https://github.com/Homebrew/homebrew/issues/32642
+
 ```
 $ brew update
 $ brew install pypy
+```
+
+### Ubuntu 14.10
+
+```
+$ sudo apt-get update
+$ sudo apt-get install pypy
 ```
 
 

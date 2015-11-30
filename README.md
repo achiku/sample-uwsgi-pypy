@@ -52,3 +52,22 @@ Usage: /Users/achiku/work/achiku/sample-uwsgi-pypy/venv/bin/uwsgi [options...]
     --pypy-eval                           evaluate pypy code before fork()
     --pypy-eval-post-fork                 eval
 ```
+
+
+## Start uwsgi
+
+```
+$ uwsgi -i ./uwsgi.ini
+```
+
+## Error on OSX
+
+```
+!!! UNABLE to load uWSGI plugin: dlopen(./pypy_plugin.so, 10): image not found !!!
+```
+
+
+```
+*** WARNING your pypy setup code does not expose a callback for "execute_source" ***
+*** no app loaded. going in full dynamic mode ***
+```
